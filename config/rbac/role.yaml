@@ -250,11 +250,9 @@ rules:
 - apiGroups:
   - config.openshift.io
   resources:
-  - authentications
+  - apiservers
   verbs:
   - get
-  - list
-  - watch
 - apiGroups:
   - coordination.k8s.io
   resources:
